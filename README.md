@@ -20,14 +20,8 @@ npx hardhat compile
 npx hardhat run --network bsc scripts/deploy.js
 ```
 
-## Verifying contracts
+## Verify contract
 
 ```shell
 npx hardhat verify "<contract-address>" --network bsc
-```
-
-### Nelo Token
-
-```shell
-npx hardhat verify "<token-contract-address>" --network bsc NELO NELO 1000000000000000000000000000
 ```
